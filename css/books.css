@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family:  'Calibri', sans-serif;
     font-weight: lighter;
+    scroll-behavior: smooth;
 }
 
 #hero{
