@@ -66,3 +66,14 @@ nav a:hover{
 small{
     margin-top: 45px;
 }
+
+@media only screen and (max-width: 563px) {
+    nav a {
+        margin: 0px 2%;
+        padding: 20px 15px;
+    }
+
+    nav{
+        padding: 20px 10px;
+    }
+  }
