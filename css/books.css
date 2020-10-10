@@ -88,7 +88,12 @@ small{
         top: calc(100% - 56.5px)
     }
 
+    #main{
+        margin: 15px;
+    }
+
     img{
         margin: 0px auto;
+        padding: 0 50%;
     }
   }
