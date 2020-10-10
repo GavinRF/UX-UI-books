@@ -28,6 +28,7 @@ h3{
 
 a{
     text-decoration: none;
+    color: #151515;
 }
 
 nav{
@@ -60,6 +61,7 @@ nav a:hover{
 
 .item-group{
     margin: 30px 20px;
+    min-width: 300px;
 }
 
 .author::before{
