@@ -87,4 +87,8 @@ small{
         padding: 20px 10px;
         top: calc(100% - 56.5px)
     }
+
+    img{
+        margin: 0px auto;
+    }
   }
