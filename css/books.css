@@ -26,6 +26,10 @@ h3{
     padding-left: 55px;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav{
     position: sticky;
     background: #9f2a35;
