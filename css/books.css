@@ -16,6 +16,10 @@ h1{
     margin-left: 32px;
 }
 
+h2{
+    min-height: 50px;
+}
+
 h3{
     color: #64c3e2;
     border-left: 3px solid #64c3e2;
@@ -51,5 +55,14 @@ nav a:hover{
 }
 
 .item-group{
-    margin: 40px 0px;
+    margin: 30px 20px;
+}
+
+.author::before{
+    content: "by ";
+    color: gray;
+}
+
+small{
+    margin-top: 45px;
 }
