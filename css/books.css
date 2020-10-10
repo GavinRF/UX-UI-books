@@ -17,13 +17,13 @@ h1{
 }
 
 h2{
-    min-height: 50px;
-}
-
-h3{
     color: #64c3e2;
     border-left: 3px solid #64c3e2;
     padding-left: 55px;
+}
+
+h3{
+    min-height: 50px;
 }
 
 a{
