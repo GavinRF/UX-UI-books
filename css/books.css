@@ -17,7 +17,7 @@ h1{
 h2{
     color: #82e6f8;
     border-left: 3px solid #82e6f8;
-    padding-left: 45px;
+    padding-left: 25px;
 }
 
 h3{
@@ -84,5 +84,6 @@ small{
 
     nav{
         padding: 20px 10px;
+        top: calc(100% - 56.5px)
     }
   }
