@@ -64,6 +64,15 @@ nav a:hover{
 
 #full{
     display: none;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+#half{
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 small{
@@ -113,6 +122,14 @@ a img:hover{
     nav{
         padding: 20px 10px;
         top: calc(100% - 56.5px);
+    }
+
+    #full{
+        display: none;
+    }
+    
+    #half{
+        display: none;
     }
 
     #main{
