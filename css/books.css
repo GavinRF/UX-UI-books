@@ -48,6 +48,7 @@ nav{
     background: #9f2a35;
     top: 0px;
     padding: 20px;
+    z-index: 99;
 }
 
 nav a {
@@ -59,6 +60,10 @@ nav a {
 
 nav a:hover{
     background-color: #67131c;
+}
+
+#full{
+    display: none;
 }
 
 small{

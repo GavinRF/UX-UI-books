@@ -11,7 +11,7 @@
         <img id="hero" src="img/hero.jpg">
         <h1>UX/UI Books + Resources&nbsp;+ Tools</h1>
         <nav>
-<a href="#UX">UX</a><a href="#UI">UI</a><a href="#IA">IA</a><a href="#IxD">IxD</a><a href="#Dev">Dev</a><a id='half'>1/2</a>
+<a href="#UX">UX</a><a href="#UI">UI</a><a href="#IA">IA</a><a href="#IxD">IxD</a><a href="#Dev">Dev</a><a id='half'>1/2</a><a id="full">full</a>
         </nav>
         <br>
         <div
@@ -447,7 +447,16 @@
      $('#half').click(function(){           
      $('.item-group').css('transform','scale(.7)');
      $('.category').css('grid-template-columns','repeat(auto-fill, minmax(250px, 1fr)');
+     $('#half').css('display','none');
+     $('#full').css('display','inline');
      }); 
+
+     $('#full').click(function(){
+        $('.item-group').css('transform','scale(1)');
+        $('.category').css('grid-template-columns','repeat(auto-fill, minmax(350px, 1fr)');
+        $('#half').css('display','inline');
+     $('#full').css('display','none');
+     });
  </script>
 
     </body>
