@@ -12,12 +12,18 @@ body{
 }
 
 h1{
-    margin-left: 45px;
-    margin-right: 45px;
+    margin: 0px;
+    color: snow;
+    padding-top: 105px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: url(../img/hero.jpg) no-repeat 0 0;
+    background-size: cover;
 }
 
 h2{
-    color: #8f0b08;
+    /* color: #8f0b08; */
     border-left: 3px solid #82e6f8;
     padding-left: 25px;
     padding-top: 18px;
@@ -27,7 +33,7 @@ h2{
 
 
 h3{
-    min-height: 40px;
+    min-height: 30px;
     margin-bottom: 10px;
     line-height: 1.2em;
     transition: color 300ms ease-out;
@@ -48,7 +54,7 @@ a{
 
 nav{
     position: sticky;
-    background: #9f2a35;
+    background: #04032c;
     top: 0px;
     padding: 20px;
     z-index: 99;
@@ -62,7 +68,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #67131c;
+    background-color: #100e62;
 }
 
 #full{
@@ -70,12 +76,14 @@ nav a:hover{
     position: absolute;
     right: 0px;
     top:0px;
+    cursor: pointer;
 }
 
 #half{
     position: absolute;
     right: 0px;
     top: 0px;
+    cursor: pointer;
 }
 
 small{
@@ -88,12 +96,7 @@ a img{
 
 a img:hover{
     box-shadow: 0 3px 4px rgba(0,0,0,.4);
-    transform: scale(1.05);
-}
-
-
-#hero{
-    width: 100vw;
+    transform: scale(1.03);
 }
 
 #main{
