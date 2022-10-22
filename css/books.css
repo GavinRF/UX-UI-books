@@ -17,9 +17,12 @@ h1{
 }
 
 h2{
-    color: #bf0d0a;
+    color: #8f0b08;
     border-left: 3px solid #82e6f8;
     padding-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    background: #82e6f83d;
 }
 
 
