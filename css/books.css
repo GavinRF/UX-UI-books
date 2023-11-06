@@ -99,6 +99,11 @@ a img:hover{
     transform: scale(1.03);
 }
 
+.tea a img:hover{
+    box-shadow: none;
+    transform: scale(1.045);
+}
+
 #main{
     margin: 45px;
 }
